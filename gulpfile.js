@@ -29,7 +29,16 @@ gulp.task('imageMin', ()=>{
 });
 
 /*
-*   Implements all of the above tasks in the order listed
-*   All assets (css,js,images,etc.) can be loaded from the dist folder now, pre-compiled to be minified
+*   Load a task that will watch all directories for changes, and rerun a task if changes are found.
 */
-gulp.task('default', ['anyTaskName','sass','minifyJS','imageMin']);
+gulp.task('watch', function(){
+    gulp.watch('src/js/*.js', ['minifyJS']);
+    gulp.watch('src/images/*', ['imageMin']);
+    gulp.watch('src/sass/*.scss', ['sass']);
+});
+
+/*
+*   Append 'watch' as the last task so any changes will rerun the task associated with it.
+*/
+gulp.task('default', ['anyTaskName','sass','minifyJS','imageMin', 'watch']);
+
