@@ -30,3 +30,6 @@
     <li>gulp.dest - Point to folder destination of post-compilation files</li>
     <li>gulp.watch - Watch files/folders for changes</li>
 </ul>
+
+<h2>In this branch:</h2>
+<p>This branch shows how to use multiple tasks in series using an array of tasks defined as the second parameter of the gulp task function.</p>
