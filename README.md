@@ -30,3 +30,6 @@
     <li>gulp.dest - Point to folder destination of post-compilation files</li>
     <li>gulp.watch - Watch files/folders for changes</li>
 </ul>
+
+<h2>In this branch</h2>
+<p>This branch shows how to minify javascript with the uglify plugin</p>
