@@ -30,3 +30,6 @@
     <li>gulp.dest - Point to folder destination of post-compilation files</li>
     <li>gulp.watch - Watch files/folders for changes</li>
 </ul>
+
+<h2>This branch's description:</h2>
+<p>This branch shows a task that copies HTML files from one directory to another using gulp.</p>
