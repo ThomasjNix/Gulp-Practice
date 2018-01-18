@@ -30,3 +30,6 @@
     <li>gulp.dest - Point to folder destination of post-compilation files</li>
     <li>gulp.watch - Watch files/folders for changes</li>
 </ul>
+
+<h2>In this branch:</h2>
+<p>This branch will show how to use gulp-sass, a popular plugin for compiling SASS/SCSS to CSS</p>
