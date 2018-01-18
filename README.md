@@ -18,3 +18,15 @@
     <li>Create a gulpfile (gulpfile.js)</li>
     <li>Require gulp (const gulp = require('gulp');)</li>
 </ul>
+
+<br>
+
+<h3>Top Level Tasks</h3>
+<p><em>Follows structure of gulp.task(taskName: String, callback(){});</em></p>
+<p><em>Run with gulp taskName</em></p>
+<ul>
+    <li>gulp.task - Define tasks</li>
+    <li>gulp.src - Point to files for use</li>
+    <li>gulp.dest - Point to folder destination of post-compilation files</li>
+    <li>gulp.watch - Watch files/folders for changes</li>
+</ul>
