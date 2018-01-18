@@ -30,3 +30,6 @@
     <li>gulp.dest - Point to folder destination of post-compilation files</li>
     <li>gulp.watch - Watch files/folders for changes</li>
 </ul>
+
+<h2>In this branch:</h2>
+<p>This branch shows how to use gulp-concat alongside gulp-uglify to combined files together into a single type and minify them, then export them to a single destination file.</p>
