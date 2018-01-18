@@ -30,3 +30,6 @@
     <li>gulp.dest - Point to folder destination of post-compilation files</li>
     <li>gulp.watch - Watch files/folders for changes</li>
 </ul>
+
+<h2>In this branch:</h2>
+<p>This branch demonstrates how to use the gulp pluging imagemin to optimize image loading</p>
